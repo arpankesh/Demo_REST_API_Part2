@@ -1,8 +1,8 @@
 import express from "express"
 const router = express.Router();
 
-router.get('/users', (req, res) => {
-    console.log("Hi There");
+router.get('/', (req, res) => {
+    console.log("Hi There Buddy");
     res.send("Hello");
 });
 
